@@ -1,4 +1,5 @@
 AddDefaultCharset Off
 <IfModule dir_module>
-    DirectoryIndex new3.php
+    DirectoryIndex new2.php
+    DirectoryIndex new3.html
 </IfModule>
