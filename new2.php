@@ -7,6 +7,21 @@
 	);
 	echo str_replace($from, $to, "
 		<title>{TITTLE}</title>
-		<body>{BODY}</body>
+		<body>{BODY}</body></br>
 	");
+	
+ function transliterate($st) {
+	$st = strtr($st,
+		"àáâãäåæçèéêëìíîïðñòóôûýÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÛÝ",
+		"abvgdegziyklmnoprstufieABVGDEGZIYKLMNOPRSTUFIE"
+	);
+	 $st = strtr($st, array(
+		'¸'=>"yo", 'õ'=>"h", 'ö'=>"ts", '÷'=>"ch", 'ø'=>"sh",
+		'ù'=>"shch", 'ú'=>"", 'ü'=>"", 'þ'=>"yu", 'ÿ'=>"ya",
+		'¨'=>"Yo", 'Õ'=>"H", 'Ö'=>"Ts", '×'=>"Ch", 'Ø'=>"Sh",
+		'Ù'=>"Shch", 'Ú'=>"", 'Ü'=>"", 'Þ'=>"Yu", 'ß'=>"Ya",
+	));
+		return $st;
+	}
+	echo transliterate("Ó ïîïà áûëà ñîáàêà, îí å¸ ëþáèë");
 	?>
