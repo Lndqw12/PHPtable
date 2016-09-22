@@ -6,5 +6,13 @@
  //printf("Привет ,%s! Вам %s лет", Dima, 19);
  //$percentage = 4.5;
  //echo sprintf("The percentage was %d%%", $percentage);
-
+ //string strtolower(string $st);
+//$st = strtr($st,
+	//"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVMXYZ",
+	//"абвгдеёжзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvmxyz"
+	//);
+	
+$st=39 good;
+string md(string $st)
+echo $st;
 ?>
