@@ -11,8 +11,3 @@
 	//"АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯABCDEFGHIJKLMNOPQRSTUVMXYZ",
 	//"абвгдеёжзийклмнопрстуфхцчшщъыьэюяabcdefghijklmnopqrstuvmxyz"
 	//);
-	
-$st=39 good;
-string md(string $st)
-echo $st;
-?>
