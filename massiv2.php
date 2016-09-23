@@ -5,7 +5,7 @@ $tools = array(
 	"c" => "Alpha",
 	"d" => "Processor"
 );
-ksort($tools); //сортировка по алф.
-//void ksort(array &$array, [,int $sort_flag])
+asort($tools);
+$tools = array_reverse($tools);
 print_r($tools);
 ?>
